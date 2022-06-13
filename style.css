@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2 ?family=Roboto&display=swap');
+body {
+    background-color: rgb(202, 223, 223);
+    min-width: 320px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    color: #000000;
+    margin: 0; 
+    padding: 0;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;      
+}
+.container {
+    max-width: 1440px; /*контейнер стремиться занять всю ширину окна*/
+    margin: 0 auto;
+    min-height: 50px;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    color: #000000;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 150;
+    line-height: 50px;
+    position: relative;
+    padding: 0 15px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth; /*плавная прокрутка*/
+}    
+    
+a:link { /*непосещенная*/
+    color: #497DDD; 
+   
+}
+  
+a:visited {/*посещенная*/
+    color: #500ad2;
+}
+a:hover {/*указатель мыши*/
+    color: #051a3d; 
+    text-decoration: underline;
+    border-bottom: .07em solid;
+}
+a:active {
+    color: #497DDD; 
+    border-bottom: 1px dashed;
+} 
+
+a {
+    text-decoration: none;
+    width: 50px;
+}
+
+.header{
+    margin-bottom: auto; 
+}
+
+.main{
+    margin-bottom: auto;
+}
+
+.footer {
+    margin-bottom: auto;
+    background-color: rgb(94, 135, 232);
+   
+}
+
+/.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.pre {
+    padding: 0;
+    margin: 0;
+}
+.info {
+    flex-direction: column;
+    display: flex;   
+}
+
+.foto {
+    width: 250px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+.nav {
+    background-color: aqua;
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;  
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}  
+    
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+@media (max-width: 410px) {
+    .main-title {
+      font-size: 24px;
+      letter-spacing: 4px;
+    }  
+  }
